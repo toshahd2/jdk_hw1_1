@@ -5,10 +5,11 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.*;
 
 public class SettingWindow extends JFrame {
-    private static final int WINDOW_HEIGHT = 350;
-    private static final int WINDOW_WIDTH = 400;
+    static public final int WINDOW_HEIGHT = 350;
+    static public final int WINDOW_WIDTH = 400;
     static public int sliderSizeValue = 3;
     static public int sliderWinValue = 3;
     static public boolean modeValue = false;

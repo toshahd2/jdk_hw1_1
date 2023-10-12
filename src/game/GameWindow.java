@@ -22,7 +22,7 @@ public class GameWindow extends JFrame {
 
         //элементы
         settings = new SettingWindow(this);
-        Map map = new Map(settings.sliderSizeValue, settings.sliderSizeValue);
+        map = new Map(settings.sliderSizeValue, settings.sliderSizeValue);
 
 
         //нижняя часть
